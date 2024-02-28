@@ -33,5 +33,6 @@ public class Pause : MonoBehaviour
         isPause = false;
         Time.timeScale = 1;
         pauseMenu.SetActive(false);
+        bgSound.Play();
     }
 }
