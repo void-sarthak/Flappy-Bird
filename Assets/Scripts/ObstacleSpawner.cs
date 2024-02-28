@@ -21,7 +21,7 @@ public class ObstacleSpawner : MonoBehaviour
         {
             Instantiate(obstacle, new Vector3(10, Random.Range(-3, 3), 0), Quaternion.identity);
             timer = 0;
-            spawnTime = Random.Range(1, 4);
+            spawnTime = Random.Range(2, 5);
         }
 
         timer += Time.deltaTime;
