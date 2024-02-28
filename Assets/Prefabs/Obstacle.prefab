@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3311602680472660347}
   - component: {fileID: 6701393807920852170}
-  - component: {fileID: 9001929501014750968}
+  - component: {fileID: 8222542911106104819}
   m_Layer: 0
   m_Name: Square
   m_TagString: Obstacle
@@ -26,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466332420849300217}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 5.5, z: 0}
-  m_LocalScale: {x: 3, y: 7, z: 1}
+  m_LocalScale: {x: 2.3, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4282314365928661656}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &6701393807920852170
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74,18 +74,18 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1406334234, guid: 346bf14b9c8446147beb848fea41769b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d93143d834b56b940bda101d44f9f3eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.33, y: 2.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &9001929501014750968
+--- !u!60 &8222542911106104819
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,20 +121,22 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.49, y: 1.16}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 2.33, y: 2.16}
+    newSize: {x: 2.33, y: 2.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.235, y: 0.58}
-      - {x: -0.24499999, y: 0.21}
-      - {x: -0.24499999, y: -0.53999996}
-      - {x: -0.225, y: -0.58}
-      - {x: 0.235, y: -0.58}
-      - {x: 0.235, y: 0.58}
+    - - {x: -0.375, y: 0.97999996}
+      - {x: -0.375, y: 0}
+      - {x: -0.345, y: -0.94}
+      - {x: -0.315, y: -0.97999996}
+      - {x: 0.315, y: -0.97999996}
+      - {x: 0.33499998, y: -0.94}
+      - {x: 0.375, y: 0.049999997}
+      - {x: 0.375, y: 0.97999996}
   m_UseDelaunayMesh: 0
 --- !u!1 &541093249041792996
 GameObject:
@@ -236,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6833146571707450503}
   - component: {fileID: 8129790073897451346}
-  - component: {fileID: 3573967383271557552}
+  - component: {fileID: 8397586264471730616}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Obstacle
@@ -254,7 +256,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -5.5, z: 0}
-  m_LocalScale: {x: 3, y: 7, z: 1}
+  m_LocalScale: {x: 2.3, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4282314365928661656}
@@ -300,18 +302,18 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2059459525, guid: 346bf14b9c8446147beb848fea41769b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d93143d834b56b940bda101d44f9f3eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.33, y: 2.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &3573967383271557552
+--- !u!60 &8397586264471730616
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -347,22 +349,22 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.49, y: 1.14}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 2.33, y: 2.16}
+    newSize: {x: 2.33, y: 2.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.235, y: 0.57}
-      - {x: -0.235, y: 0.57}
-      - {x: -0.235, y: -0.19}
-      - {x: -0.205, y: -0.57}
-      - {x: 0.195, y: -0.57}
-      - {x: 0.21499999, y: -0.55}
-      - {x: 0.24499999, y: 0.42}
-      - {x: 0.24499999, y: 0.56}
+    - - {x: -0.375, y: 0.97999996}
+      - {x: -0.375, y: 0}
+      - {x: -0.345, y: -0.94}
+      - {x: -0.315, y: -0.97999996}
+      - {x: 0.315, y: -0.97999996}
+      - {x: 0.33499998, y: -0.94}
+      - {x: 0.375, y: 0.049999997}
+      - {x: 0.375, y: 0.97999996}
   m_UseDelaunayMesh: 0
 --- !u!1 &8963149890107260540
 GameObject:
