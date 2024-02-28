@@ -783,7 +783,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1931665314, guid: d5e6edffb7c85a34c90089b79f6cfaaf, type: 3}
+  m_Sprite: {fileID: -362558025, guid: d5e6edffb7c85a34c90089b79f6cfaaf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -991,7 +991,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8a9c617ddcf815e43996a555067ba750, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f6a9c097dd67686478c50767c234fdb7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1112,7 +1112,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 43306912edd9b2740939fc6a81fe5ae7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fa363c4a94a204a41aed51528a3359fd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1255,9 +1255,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'By Khsuhboo Kumari
+  m_text: 'By Princy Hirapara
 
-    210512'
+    210448'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1635,7 +1635,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1090131078, guid: d5e6edffb7c85a34c90089b79f6cfaaf, type: 3}
+  m_Sprite: {fileID: 940342973, guid: d5e6edffb7c85a34c90089b79f6cfaaf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1522825540, guid: d5e6edffb7c85a34c90089b79f6cfaaf, type: 3}
+  m_Sprite: {fileID: 1255388820, guid: d5e6edffb7c85a34c90089b79f6cfaaf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
